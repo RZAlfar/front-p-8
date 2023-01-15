@@ -1,0 +1,111 @@
+contact{
+display: block;
+background: url(../img/p-7.jpg) no-repeat center;
+background-size: cover;
+height: fit-content;
+color: #f1f1f1;
+
+}
+
+contact .right{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+contact .right h1{
+font-size: 5rem;
+font-family: 'Bebas Neue';
+letter-spacing: 5px;
+color: #bf404c;
+}
+contact .right links{
+display: flex;
+flex-direction: row;
+list-style: none;
+
+
+}
+
+contact .right links li{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px ;
+transition: .5s;
+font-size: 1.5rem;
+border-radius: 50%;
+width: 40px;
+cursor: pointer;
+height: 40px;
+}
+contact .right links li i{
+
+}
+contact .right links li:hover{
+transform: translateY(-10px);
+background-color: #bf404c;
+}
+contact .left{
+
+display: flex;
+flex-direction: column;
+gap: 50px;
+justify-self: flex-end;
+}
+
+contact .left h1{
+font-size: 3rem;
+font-family: 'Bebas Neue';
+letter-spacing: 5px;
+padding-top:15px;
+}
+
+contact .left form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+contact .left form input{
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.861);
+color: #f1f1f1;
+font-family: sans-serif;
+letter-spacing: 1.2px;
+/* outline: none; */
+border: 1px solid #f1f1f1;
+}
+contact .left form textarea{
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.861);
+color: #f1f1f1;
+font-family: sans-serif;
+letter-spacing: 1.2px;
+border: 1px solid #f1f1f1;
+
+}
+
+contact .left form input::placeholder ,contact .left form textarea::placeholder{
+color: #c4c4c4;
+text-transform: capitalize;
+font-family: sans-serif;
+}
+contact .left form input:last-of-type{
+padding: 10px 40px;
+width: fit-content;
+background-color: #bf404c;
+color: #f1f1f1;
+letter-spacing: 2px;
+font-family: sans-serif;
+transition: .5s;
+border:none;
+}
+
+contact .left form input:last-of-type:hover{
+background-color: #951724;
+
+
+
+}

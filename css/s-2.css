@@ -1,0 +1,87 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+s-2 {
+display: block;
+height: 600px;
+background-color: transparent;
+}
+
+
+s-2 .s-2-1{
+/* display:flex; */
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding-left: 50px;
+}
+
+s-2 .s-2-1 span{
+background-color: #bf404c;
+position: absolute;
+top: 0;
+width: 10px;
+height: 100%;
+left: 0;
+
+}
+
+
+
+s-2 part{
+display: flex;
+flex-direction: row;
+gap: 50px;
+
+}
+
+s-2 part icon{
+display: flex;
+height: fit-content;
+
+}
+s-2 part icon svg{
+width: 100%;
+align-self: flex-start;
+height: fit-content;
+}
+
+s-2 part text {
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 20px;
+z-index: 1;
+padding: 20px;
+transition: .5s;
+}
+
+s-2 part text::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #bf404c;
+z-index: -1;
+border-radius: 20px;
+transition: 1s;
+clip-path: circle(0px at center);
+}
+s-2 part text:hover::before
+{
+clip-path: circle(200px at center);
+
+}
+
+s-2 part text:hover
+{
+color: #f1f1f1;
+
+}

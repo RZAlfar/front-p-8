@@ -1,0 +1,58 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+s-4{
+display: block;
+background-color: #bf404c;
+background: url(../img/p-8.jpg) center no-repeat;
+background-size: cover;
+color: #f1f1f1;
+}
+
+
+s-4 .col:nth-of-type(1){
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+s-4 .col:nth-of-type(2){
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+s-4 button{
+display: block;
+padding: 5px 30px;
+text-transform: uppercase;
+outline: none;
+background-color: transparent;
+z-index: 2;
+position: relative;
+
+}
+
+s-4 button::before{
+content: "";
+position: absolute;
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+transition: .5s;
+background-color: #f1f1f1;
+z-index: -1;
+}
+
+
+
+s-4 button:hover::before{
+width: 100%;
+}
