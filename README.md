@@ -1,4 +1,5 @@
 # front-p-8
-## preview: https://rzalfar.github.io/front-p-8/
-## using: (html,css,bootsrap,js)
-## my linked-In account: https://www.linkedin.com/in/razan-n-f/
+## DEMO: https://rzalfar.github.io/front-p-8/
+## Video: https://www.dropbox.com/s/q0fkpo2a6suze3p/8.webm?dl=0
+## Tech Tools: (html,css,bootsrap,js)
+##
